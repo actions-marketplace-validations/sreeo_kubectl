@@ -5,6 +5,10 @@ branding:
   icon: 'terminal'
   color: 'blue'
 inputs:
+  AWS_ACCESS_KEY_ID:
+    description: 'AWS access key ID'
+  AWS_SECRET_ACCESS_KEY:
+    description: 'AWS secret access key'
   KUBE_CONFIG:
     description: 'Kubernetes configuration'
   KUBE_HOST:
